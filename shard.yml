@@ -8,6 +8,10 @@ targets:
   mira-cli:
     main: src/mira-cli.cr
 
+dependencies:
+  crysterm:
+    github: crystallabs/crysterm
+
 crystal: 1.1.1
 
-license: MIT
+license: GPL-3.0
